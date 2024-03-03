@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resto Bar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="text-white">
+        <nav class="navbar navbar-expand-lg navbg">
+            <div class="container-fluid">
+                <svg xmlns="http://www.w3.org/2000/svg" class="m-2 text-black" width="24" height="24" fill="currentColor"
+                    class="bi bi-cup-hot-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6zM13 12.5a2 2 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5" />
+                    <path
+                        d="m4.4.8-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 3.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 6.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8m3 0-.003.004-.014.019a4 4 0 0 0-.204.31 2 2 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.6.6 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3 3 0 0 1-.202.388 5 5 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4 4 0 0 0 .204-.31 2 2 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.6.6 0 0 0-.09-.252A4 4 0 0 0 9.6 2.8l-.01-.012a5 5 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a6 6 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8" />
+                </svg>
+                <a class="navbar-brand" href="#">Resto Bar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Restaurant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dishes
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Food" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- intro -->
+    <section class="px-5 pt-5 mb-2">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="D:\Skolar\Bootstrap website\Images\bg.jpg" class="d-block mx-lg-auto img-fluid rounded" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <h1 class="display-5 fw-bold text-body-white lh-1 mb-3">Feast Your Senses, One Bite at a Time!</h1>
+              <p class="lead">Welcome to Resto Bar, where culinary delight meets convenience! Our website is your one-stop destination for all things food, offering a treasure trove of recipes, cooking tips, and gourmet inspiration to tantalize your taste buds. Explore our vast collection of mouthwatering recipes curated from around the globe, discover expert cooking techniques, and embark on a gastronomic adventure like never before.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn s-rad btn-lg px-4 me-md-2">Menu</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Dishes -->
+    <section class="px-5 py-5">
+        <h2 class="text-center h1 my-5">Dishes</h2>
+        <div class="container-fluid">
+            <div class="row mb-4">
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d8.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Samosa</p>
+                        <p>A samosa is a popular triangular-shaped savory pastry originating 
+                            from the Indian subcontinent. It typically consists of a crispy outer 
+                            layer made from dough, filled with a mixture of spiced potatoes, peas, 
+                            lentils, or minced meat.</p>
+                    </div>
+                </div>
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d2.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Noodles</p>
+                        <p>Noodles are a versatile staple food enjoyed worldwide, originating from
+                           various cultures such as China, Italy, and Japan. They come in a variety 
+                           of shapes, sizes, and flavors, made from wheat, rice, buckwheat, or other grains</p>
+                    </div>
+                </div>
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d7.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Egg</p>
+                        <p>Eggs are a nutritious and versatile food enjoyed worldwide, known for their 
+                           high protein content and versatility in cooking. They can be prepared in numerous 
+                           ways, including scrambled, fried, boiled, poached, or baked.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d1.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Salad</p>
+                        <p>Salad refers to a dish composed of a mixture of raw or cooked vegetables, fruits, 
+                           grains, proteins, and dressings. It is often served chilled and can be customized 
+                           according to personal preferences and dietary needs.</p>
+                    </div>
+                </div>
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d5.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Pizza</p>
+                        <p>Pizza is a beloved Italian dish consisting of a round, flattened dough base topped 
+                           with tomato sauce, cheese, and various ingredients such as meats, vegetables, and herbs. 
+                           It is typically baked in an oven, resulting in a crispy crust and melted cheese</p>
+                    </div>
+                </div>
+                <div class="col-4 position-relative hov">
+                    <img class="rounded" height="300px" width="450px" src="D:\Skolar\Bootstrap website\Images\d6.jpg" alt="">
+                    <div class="position-absolute text-center p-4 des">
+                        <p class="fs-3 mt-3">Chicken</p>
+                        <p>Chicken is one of the most widely consumed meats globally, prized for its versatility, mild 
+                           flavor, and relatively low fat content. It can be prepared in various ways, including grilled, 
+                           roasted, fried, baked, or simmered in soups and stews.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- restaurant -->
+    <section class="px-5 py-5">
+        <div class="container col-8">
+            <h2 class="text-center h1 mb-2">Our Restaurant</h2>
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="D:\Skolar\Bootstrap website\Images\r-1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="D:\Skolar\Bootstrap website\Images\r-2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="D:\Skolar\Bootstrap website\Images\r-3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid bg-light py-2">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Menu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Restaurant</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2024 Resto Bar, Inc</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

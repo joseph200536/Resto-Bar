@@ -1,0 +1,32 @@
+body{
+    background-image: url("/D:/Skolar/Bootstrap website/Images/pexels-rajesh-tp-1603899.jpg");
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+.navbg{
+    background-color: #FFF7F1;
+}
+.s-rad{
+    background-color: #F7F6BB;
+}
+.des{
+    width: 450px;
+    height: 300px;
+    top: 0;
+    transition: 0.5s ease;
+    background-color: rgba(255, 255, 255, 0.395);
+    opacity: 0;
+    
+}
+.hov:hover img{
+    opacity: 0.7;
+}
+.hov:hover .des{
+    opacity: 1;
+}
